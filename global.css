@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --filter: blur(5px) brightness(80%) saturate(150%);
+    --box-color: #1d1e4b83;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fleex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#bg{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: -99;
+}
+
+cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1, #c-6-6-1 {
+    display: none;
+}
+
