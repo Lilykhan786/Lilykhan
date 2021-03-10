@@ -17,7 +17,7 @@ main{
     align-self: center;
     padding: 0px 50px 10px 50px;
     margin: 20px;
-    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='snow' stroke-width='8' stroke-dasharray='21%2c 15%2c 15%2c 7' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23BABBF2FF' stroke-width='8' stroke-dasharray='21%2c 15%2c 15%2c 7' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
     border-radius: 1em;
 }
 
