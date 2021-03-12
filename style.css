@@ -1,6 +1,6 @@
 main{
     position: relative;
-    top: 20vh;
+    top: 15vh;
     /* pointer-events: none; */
     display: flex;
     flex-direction: column;
@@ -45,18 +45,20 @@ main{
 }
 
 .about{
-    position: relative;
-    top: 10vh;
     background: var(--box-color);
     backdrop-filter: var(--filter);
     align-self: center;
     padding: 2em 3em;
-    margin: 20px;
+    margin: 7em 20px;
     border-radius: 1em;
     border: 1px solid #ffffff;
 }
+
 .about p{
     padding-top: 1.2em;
+    /* line-height: 32px;
+    letter-spacing: .5px; */
+    font-size: 1.1em;
 }
 
 @media screen and (max-width: 700px) {
@@ -65,4 +67,12 @@ main{
 
 @media only screen and (min-width: 1400px) {
     .name{font-size: 10em;}
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+	background: -webkit-linear-gradient(#ffffff, #5557dd);
+    backdrop-filter: var(--filter);
+    clip-path: polygon(93.30127018922194% 75%,93.30127018922194% 25.000000000000004%,50% 0%,6.698729810778062% 25.000000000000004%,6.698729810778062% 74.99999999999999%,49.99999999999994% 100%)
 }

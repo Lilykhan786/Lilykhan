@@ -3,7 +3,7 @@
 :root{
     --bg: linear-gradient(#170944,#0d0c22,#030517);
     --filter: blur(5px) brightness(80%) saturate(150%);
-    --box-color: #1d1e4b83;
+    --box-color: #151635b3;
     --border: white;
 }
 
@@ -31,14 +31,19 @@ body{
 
 #bg{
     width: 100%;
-    height: fit-content;
+    height: 60vh;
     overflow: hidden;
     position: absolute;
     top: 0;
     z-index: -99;
     background-image: var(--bg);
+    /* transform: rotate(180deg); */
 }
 
 cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1, #c-6-6-1 {
     display: none;
+}
+
+@media screen and (max-width: 700px) {
+    #bg{height: 80vh;}
 }
