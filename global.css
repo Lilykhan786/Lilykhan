@@ -1,32 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-    --bg: linear-gradient(#170944,#0d0c22,#030517);
+    --grad: linear-gradient(#ffffff, #5557dd);
+    --card-g: linear-gradient(25deg, #030517,#151635b3);
     --filter: blur(5px) brightness(80%) saturate(150%);
     --box-color: #151635b3;
-    --border: white;
+    --border: 1px solid #ffffff;
 }
 
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 body{
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    text-align: center;
+    color: #ffffff;
     background: #030517;
 }
 
-.fleex{
+.c{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.i{
+    display: flex;
     flex-wrap: wrap;
+}
+
+h1{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+ p{
+    padding-top: 1em;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 1em;
+}
+
+.box{
+    background: var(--box-color);
+    backdrop-filter: var(--filter);
+    border: var(--border);
+    align-self: center;
+    border-radius: 1em;
 }
 
 #bg{
@@ -36,8 +65,9 @@ body{
     position: absolute;
     top: 0;
     z-index: -99;
-    background-image: var(--bg);
-    /* transform: rotate(180deg); */
+    background: linear-gradient(#170944,#0d0c22,#030517);
+    background: -webkit-linear-gradient(#170944,#0d0c22,#030517);
+    pointer-events: auto;
 }
 
 cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1, #c-6-6-1 {
