@@ -1,14 +1,12 @@
 main{
     position: relative;
     top: 15vh;
-    pointer-events: none;
     display: flex;
     flex-direction: column;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
 
 .boox{
     padding: 0px 3em 1em 3em;
@@ -37,41 +35,15 @@ main{
 }
 
 .projects {
-    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.cards{
-    margin: 3em 0;
-    margin-left: -1.2em;
+.projects h1{
+    font-size: 3em;
 }
-
-.card{
-    width: 250px;
-    height: 300px;
-    padding: 1.5em 1em 1.5em 1.5em;
-    margin: 1em;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.card:nth-child(1){
-    background-image:var(--card-g), url('https://avatars.githubusercontent.com/u/47777673?s=400&u=b787dfafbb4af3164549369e6a591e5c3e99bfde&v=4');;
-}
-.card:nth-child(2){
-    background-image:var(--card-g), url('https://i.pinimg.com/564x/95/2b/73/952b730ba29e389e4b479fe3830075fa.jpg');;
-}
-.card:nth-child(3){
-    background-image:var(--card-g), url('https://i.pinimg.com/236x/a4/4a/75/a44a7503aaef78336411bfa59b702c1a.jpg');;
-}
-.card:nth-child(4){
-    background-image:var(--card-g), url('https://i.pinimg.com/564x/4b/fd/b8/4bfdb8291a6ccbeaf3c0a8c3ac8c1de8.jpg');;
-}
-.card:nth-child(5){
-    background-image:var(--card-g), url('https://i.pinimg.com/564x/7f/2c/cf/7f2ccfa60ba8a3893cf3e84755f92ca3.jpg');;
-} 
-
-
 
 /* .icon{
     width: 100px;
@@ -95,16 +67,8 @@ main{
 } */
 
 
-
 @media screen and (max-width: 732px) {
     .name{font-size: 5em;}
-    .projects, .cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .cards{margin-left: 0;}
 }
 
 @media only screen and (min-width: 1400px) {

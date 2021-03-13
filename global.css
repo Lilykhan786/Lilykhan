@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-    --card-g: linear-gradient(25deg, #030517,#151635b3);
+    --card-g: linear-gradient(125deg, #030517,#151635b7);
     --filter: blur(5px) brightness(80%) saturate(150%);
     --box-color: #151635b3;
     --border: 1px solid #ffffff;
+    --shadow: 0 0 1px #7879da;
 }
 
 *{
@@ -38,7 +39,12 @@ h1{
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.4em;
     font-weight: bold;
 }
 
