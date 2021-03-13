@@ -22,39 +22,26 @@ main{
     letter-spacing: 5px;
     font-weight: bold;
     position: relative;
-	background:  var(--grad);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-        text-align: center;
-}
-
-.name:before{
-	content:"Lily  Khan";
+	color: #7879da;
+    text-align: center;
 	text-shadow:  
-		1px 1px #fff,2px 2px #fff,
-		3px 3px #efefef,4px 4px #efefef,
-		5px 5px #e6e6e6,6px 6px #e6e6e6,
-		7px 7px #ddd,8px 8px #ddd,
-		9px 9px #c9c9c9,10px 10px #c9c9c9;
-	position: absolute;
-	z-index:-1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+		1px 1px #fbf0ff,2px 2px #fbf0ff,
+		3px 3px #f5e4ff,4px 4px #f5e4ff,
+		5px 5px #f0dcfc,6px 6px #f0dcfc;
 }
 
 .about{
-    padding: 2em 3em;
+    padding: 2em;
+    padding-left: 3em;
     margin: 7em 0;
 }
-
 
 .projects {
     padding: 0 2em;
 }
 
 .cards{
-    margin: 3em;
+    margin: 3em 0;
     margin-left: -1.2em;
 }
 
@@ -109,8 +96,15 @@ main{
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 732px) {
     .name{font-size: 5em;}
+    .projects, .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{margin-left: 0;}
 }
 
 @media only screen and (min-width: 1400px) {
