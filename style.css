@@ -3,7 +3,7 @@ main{
     flex-direction: column;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
     padding-top: 15vh;
 }
 
@@ -30,7 +30,7 @@ main{
 .about{
     padding: 2em;
     padding-left: 3em;
-    margin: 7em 0;
+    margin: 7em 20px;
 }
 
 .projects {
@@ -46,31 +46,42 @@ main{
 
 .socials{
     width: 100%;
-    text-align: center;
-    padding: 10px;
 }
 
-/* .icon{
+.sm{
+    margin: 2em;
+}
+
+.sm img{
+    height: 40px;
+    padding-top: 7px;
+}
+
+.icon{
     width: 100px;
     height: 100px;
     background: white;
     clip-path: polygon(93.30127018922194% 75%,93.30127018922194% 25.000000000000004%,50% 0%,6.698729810778062% 25.000000000000004%,6.698729810778062% 74.99999999999999%,49.99999999999994% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 5px 0;
 }
 
 .icon::after{
-    content: "g";
-    width: 90px;
-    height: 90px;
-
-    position: relative ;
-    right: 1px; 
-    top:1px;
-    
-    background: red;
-    
+    content: "";
+    width: 98px;
+    height: 98px;
+    position: absolute ;
+    z-index: -1;
+    background: #030517;
     clip-path: polygon(93.30127018922194% 75%,93.30127018922194% 25.000000000000004%,50% 0%,6.698729810778062% 25.000000000000004%,6.698729810778062% 74.99999999999999%,49.99999999999994% 100%);
-} */
+}
 
+.copyright{
+    padding: 20px;
+}
 
 @media screen and (max-width: 732px) {
     .name{font-size: 5em;}
