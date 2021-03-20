@@ -90,6 +90,7 @@ main{
 }
 
 @media screen and (max-width: 732px) {
+    .boox{margin:0 1em; padding: 0px 2em .5em 2em;}
     .name{font-size: 5em;}
 }
 
