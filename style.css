@@ -7,9 +7,12 @@ main{
     padding-top: 15vh;
 }
 
+.boox, .about, .projects, .socials {
+    z-index: 2;
+}
+
 .boox{
     padding: 0px 3em 1em 3em;
-    z-index:-4;
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23BABBF2FF' stroke-width='8' stroke-dasharray='21%2c 15%2c 15%2c 7' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
     border: none;
 }
@@ -25,6 +28,7 @@ main{
 		1px 1px #fbf0ff,2px 2px #fbf0ff,
 		3px 3px #f5e4ff,4px 4px #f5e4ff,
 		5px 5px #f0dcfc,6px 6px #f0dcfc;
+    z-index: 4;
 }
 
 .about{
@@ -42,9 +46,9 @@ main{
     align-items: center;
 }
 
-.socials{width: 100%;}
+.socials{width: 100%;padding: 2em 0;}
 
-.sm{margin: 2em;}
+.sm{margin: 3em 0;}
 
 .sm img{
     height: 45px;
@@ -81,13 +85,6 @@ main{
 }
 
 .copyright{padding: 20px;}
-
-.shape{
-    position: absolute;
-    top: 40%;
-    left: 0%;
-    z-index: -2;
-}
 
 @media screen and (max-width: 732px) {
     .boox{margin:0 1em; padding: 0px 2em .5em 2em;}

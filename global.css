@@ -24,6 +24,7 @@ body{
     background: #030517;
     scroll-behavior: smooth;
     position: relative;
+    overflow-x: hidden;
 }
 
 .c{
@@ -81,23 +82,22 @@ p{
     overflow: hidden;
     position: absolute;
     top: 0;
-    z-index: -99;
     background: linear-gradient(#170944,#0d0c22,#030517);
     background: -webkit-linear-gradient(#170944,#0d0c22,#030517);
     pointer-events: auto;
 }
+
 #footer{
     width: 100%;
     height: 60vh;
     overflow: hidden;
     position: absolute;
     bottom: 0;
-    z-index: -99;
-    background: linear-gradient(from bottom, #170944,#0d0c22,#030517);
-    background: -webkit-linear-gradient(from bottom, #170944,#0d0c22,#030517);
+    background: linear-gradient(to top, #093b44,#030517,#030517);
+    background: -webkit-linear-gradient(to top, #093b44,#030517,#030517);
     pointer-events: auto;
-
 }
+
 cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1, #c-6-6-1 {
     display: none;
 }
