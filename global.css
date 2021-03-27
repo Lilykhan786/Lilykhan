@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
+    --bg:#030517;
     --card-g: linear-gradient(125deg, #030517,#151635b7);
     --filter: blur(5px) brightness(80%) saturate(150%);
     --box-color: #151635b3;
@@ -16,14 +17,13 @@
 }
 
 body{
+    min-height: 100vh;
     width: 100vw;
     height: 100%;
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-    background: #030517;
+    color: var(--white);
+    background: var(--bg);
     scroll-behavior: smooth;
-    position: relative;
-    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .c{
@@ -68,16 +68,12 @@ p{
 }
 
 .box{
+    width: fit-content;
     background: var(--box-color);
     backdrop-filter: var(--filter);
-    border: var(--border);
     align-self: center;
-    border-radius: 1em;
+    border-radius: 1rem;
 }
-
-
-/* @media screen and (max-width: 700px){
-} */
 
 @media screen and (min-width: 1500px) {
     .g{grid-template-columns: auto auto auto auto;}
