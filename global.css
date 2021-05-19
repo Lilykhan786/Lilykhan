@@ -26,6 +26,7 @@ body{
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  text-align: center;
 }
 
 .c{
@@ -55,12 +56,11 @@ h1{font-size: 3em;}
 
 h2{
   font-size: 2em;
-  text-align: center;
   padding-top: 1.2em;
   padding-bottom: .8em;
 }
 
-h3{font-size: 1.4em;}
+h3{font-size: 1.5em;}
 
 p{
   padding-top: 1em;
@@ -71,6 +71,7 @@ p{
 
 .box{
   width: fit-content;
+  width: -moz-fit-content;
   background: var(--box-color);
   backdrop-filter: var(--filter);
   align-self: center;

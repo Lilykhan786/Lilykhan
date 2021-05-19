@@ -4,11 +4,13 @@
   overflow: hidden;
   position: absolute;
   top: 0;
-  pointer-events: auto;
+  /* pointer-events: auto; */
   background: linear-gradient(#170944,#0d0c22,#030517);
   background: -webkit-linear-gradient(#170944,#0d0c22,#030517);
-  z-index: 0;
+  z-index: -2;
 }
+
+/* a70184 */
 
 cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   display: none;
@@ -23,11 +25,12 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 }
 
 .name{
+  margin: 0 auto;
   font-size: 7em;
   letter-spacing: 5px;
   font-weight: bold;
 	color: var(--purple);
-  text-align: center;
+  /* text-align: center; */
 	text-shadow:  
 		1px 1px #fbf0ff,2px 2px #fbf0ff,
 		3px 3px #f5e4ff,4px 4px #f5e4ff,
@@ -40,35 +43,42 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 .about{
   max-width: 1400px;
   width: 80%;
-  padding: 2em;
-  padding-left: 3em;
-  margin: 7em 0;
+  padding: 1.5em;
+  padding-left: 2em;
+  margin: 7em auto;
   border: var(--border);
+  text-align: left;
 }
 
 .about h1{font-size: 2.2em;}
 
 .projects {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   z-index: 2;
 }
 
-.socials{
-  width: 100%;
-  padding: 2em 0;
+/* footer */
+
+.footer{
+  position: relative;
+  top: 7em;}
+
+.socials{z-index: 4;}
+
+.con{
+  position: relative;
+  top:-1em;
+  margin: 0 auto;
+  border: var(--border);
+  padding: 1em 2em;
 }
 
 .sm{
-  margin-top: 3em;
-  margin-bottom: 5em;
+  margin: 2em 0;
 }
 
 .sm img{
-  height: 35px;
+  height: 37px;
   padding-top: 7px;
   transition: .3s ease-in-out;
 }
@@ -78,8 +88,9 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   background: var(--box-color);
   border-radius: var(--b-radius);
   padding: 3px 10px;
-  margin: 5px;
-  transition: .2s ease-in-out;
+  margin: 1em;
+  transition: .2s ease-in-out;  
+  border: 1px solid transparent;
 }
 
 .icon:hover{
@@ -87,11 +98,24 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   transform: scale(1.1);
 }
 
-.copyright{padding: 20px;}
+.copyright{padding: 30px;}
+
+#bg_two{
+  z-index: -2;
+  height: 340px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  background: linear-gradient(#031117, #06051b, #091e44);
+  background: -webkit-linear-gradient(#030517, #06051b, #091e44);
+}
+
+/* footer ends */
 
 @media screen and (max-width: 732px) {
   .boox{margin:0 1em; padding: 0px 2em .5em 2em;}
-  .name{font-size: 5em;}
+  .name{font-size: 5em;}  
+  .con{margin:0 1em;}
 }
 
 @media only screen and (min-width: 1400px) {

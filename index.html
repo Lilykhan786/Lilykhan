@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,185 +11,200 @@
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link href="cards.css" rel="stylesheet" type="text/css" />
 	<link href="bujo.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" width="40px" href="/images/fly2.png">
+	<link rel="icon" width="40px" href="/images/fly2.png">
 </head>
 
 <body>
-    <div id="bg">
+	<div id="bg">
+		<css-doodle click-to-update>
+			:doodle { @grid: 7 / 100vmax; } @shape: clover 5; background: hsla( calc(360 - @i * 4), 70%, 68%, @r.8 ); opacity: .4; transform:
+			scale(@r(.2, 1.5)) translate(@m2.@r(±50%));
+		</css-doodle>
+	</div>
+
+	<main>
+		<div class="intro">
+			<h1 class="name box">Lily Khan</h1>
+			<div class="about box">
+				<h1>About me</h1>
+				<p>Hi! I'm Lily Khan, a teen front-end developer from India. I am a high school student passionate about Computer Science.<br /> 
+              I love doing creative stuff, which includes making cool sites using CSS and bullet journaling. I also enjoy exercising, reading and skating.<br />  
+              My first programming language was Java. Currently, I'm learning Javascript and Python. I typically use online IDEs and text-editors like Repl.it and Codepen to do most of my work. </p>
+          </div>
+      </div>
+
+      <div class="projects">
+              <h1>Projects</h1>
+              <div class="g cards pro"> 
+                      <!-- card-1 -->
+                  <div class="card">
+                      <div class="icons">
+                          <a href="https://portfolio-site-template.lilykhan.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
+                          <a href="https://github.com/Lilykhan786/PortfolioTemplate" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
+                      </div>
+                      <div class="deets">
+                          <h3>Portfolio Template</h3>
+                          <p>A simple portfolio website template that I made for Repl.it template jam.</p>
+                      </div>
+                      
+                  </div>  
+                      <!-- card-2 -->
+                  <div class="card">
+                      <div class="icons">
+                          <a href="https://volant-site.thedevfam.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
+                          <a href="https://github.com/volantlang/Volant-site" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
+                      </div>
+                      <div class="deets">
+                          <h3>Volant Site</h3>
+                          <p>A Site for <b>Volant</b>, an open source Programming Language.</p>
+                      </div>
+                      
+                  </div>  
+                      <!-- card-3 -->
+                  <div class="card">
+                      <div class="icons">
+                          <a href="https://codepen.io/Lilykhan/full/gOLWpxN" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
+                      </div>
+                      <div class="deets">
+                          <h3>Css Butterfly</h3>
+                          <p>Pure Css Butterfly Logo.</p>
+                      </div>
+                  </div> 
+                      <!-- card-4 -->
+                  <div class="card">
+                      <div class="icons">
+                          <a href="https://cat-gallery.lilykhan.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
+                      </div>
+                      <div class="deets">
+                          <h3>Cat Gallery</h3>
+                          <p>An Art Gallery of cute cat pics.</p>
+                      </div>
+                      
+                  </div>  
+              </div>
+
+              <h2>Projects I've contributed to:</h2>
+              
+              <div class="g cards cont"> 
+                      <!-- card-1 -->
+                  <div class="card">
+                      <div class="icons">
+                          <a href="https://cjnine.thedrone7.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
+                      </div>
+                      <div class="deets">
+                          <h3>CoronaJam</h3>
+                          <p>The game teaches you about the various ways to prevent the spread of the COVID-19 (corona) virus.</p>
+                      </div>
+                  </div> 
+
+                      <!-- card-2 -->
+                  <div class="card">
+                      <div class="icons">
+                          <a href="https://noirnight.netlify.app/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
+                          <a href="https://github.com/kartikcho/NoirNight" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
+                      </div>
+                      <div class="deets">
+                          <h3>Noir Night</h3>
+                          <p>An interactive, voice powered murder mystery that uses Google Dialogflow to react to user questions.</p>
+                      </div>
+                  </div> 
+
+                      <!-- card-3 -->
+                  <div class="card">
+                      <div class="icons">
+                          <a href="https://dreamcare.netlify.app/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
+                          <a href="https://github.com/hack-central/dreamcare-client" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
+                      </div>
+                      <div class="deets">
+                          <h3>DreamCare</h3>
+                          <p>The app helps you record and remember your dreams. A personalized collection of dreams with insightful interpretations.</p>
+                      </div>
+                  </div> 
+
+                      <!-- card-4 -->
+                  <div class="card">
+                      <div class="icons">
+                          <a href="https://skinre.lilykhan.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
+                          <a href="https://github.com/Lilykhan786/Skinre" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
+                      </div>
+                      <div class="deets">
+                          <h3>Skinre</h3>
+                          <p>A chrome extension plus website created to help people find suitable products to treat stuff such as acne and skin damage.</p>
+                      </div>
+                      
+                  </div> 
+
+              </div>
+              
+              <div class="gallery">
+              <h2>My Bujo and Logos</h2>
+                  <div class="bujo">
+                      <img class="bimg" src="/images/bujo/dec.jpg" alt="dec">
+                      <img class="bimg" src="/images/bujo/green.jpg" alt="quote">
+                      <img class="bimg" src="/images/bujo/jan.jpg" alt="jan">
+                      <img class="bimg" src="/images/bujo/comp.jpg" alt="comp_long">
+                      <img class="bimg" src="/images/bujo/march.jpg" alt="march">
+                      <img class="bimg" src="/images/bujo/feb.png" alt="feb">
+                      <img class="bimg" src="/images/bujo/volant.jpg" alt="volant_logo">
+                      <img class="bimg" src="/images/bujo/cap.jpg" alt="quote">
+                      <img class="bimg" src="/images/bujo/2020.jpg" alt="2020">
+                  </div>
+                  <div class="modal">
+                      <span class="close"><img src="https://img.icons8.com/emoji/48/ffffff/cross-mark-emoji.png"/></span>
+                      <div class="modalContent">
+                      <img src="" class="modalImg" />
+                      <span class="modalTxt"></span>
+                      </div>
+                  </div>
+              </div>
+
+      </div>
+      
+      <div class="footer">
+        <div class="socials">
+          <div class="con box">
+                <h1>Get In Touch</h1> 
+                <p>Feel free co contact me, I'm pretty active on Twitter and Discord.</p>  
+          </div>
+              <div class="i sm">
+                <div class="icon rep">
+                    <a href="https://replit.com/@lilykhan" target="_blank"><img src="images/repl.svg"/></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://github.com/Lilykhan786" target="_blank"><img src="https://img.icons8.com/material-sharp/48/ffffff/github.png"/></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://twitter.com/LilyKhan786" target="_blank"><img src="https://img.icons8.com/android/48/ffffff/twitter.png"/></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://discord.com/invite/QgPaV95" target="_blank"><img src="https://img.icons8.com/material-sharp/48/ffffff/discord-logo.png"/></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://codepen.io/Lilykhan" target="_blank"><img src="https://img.icons8.com/material/48/ffffff/codepen.png"/></a>
+                  </div>
+                  <div class="icon">
+                    <a href="https://dribbble.com/lilykhan" target="_blank"><img src="https://img.icons8.com/windows/32/ffffff/dribbble.png"/></a>
+                  </div>
+              </div>
+              <div class="copyright">Made By Lily Khan 💙</div>
+        </div>
+        <div id="bg_two">
             <css-doodle click-to-update>
                 :doodle {
                     @grid: 7 / 100vmax;
                         }
                 @shape: clover 5;
                 background: hsla(
-                    calc(360 - @i * 4), 70%, 68%, @r.8
+                    calc(580 - @i * 4), 70%, 68%, @r.8
                 );
                 opacity: .4;
                 transform:
                     scale(@r(.2, 1.5))
                     translate(@m2.@r(±50%));
             </css-doodle>
-    </div>
-
-    <main>
-
-		<div class="c intro">
-        <h1 class="name box">Lily Khan</h1>
-        <div class="about box">
-			<h1>About me</h1>
-			<p>Hi! I'm Lily Khan, a teen front-end developer from India. I am a high school student passionate about Computer Science.<br /> 
-            I love doing creative stuff, which includes making cool sites using CSS and bullet journaling. I also enjoy exercising, reading and skating.<br />  
-            My first programming language was Java. Currently, I'm learning Javascript and Python. I typically use online IDEs and text-editors like Repl.it and Codepen to do most of my work. </p>
         </div>
-        </div>
-
-        <div class="projects">
-            <h1>Projects</h1>
-            <div class="g cards pro"> 
-                    <!-- card-1 -->
-                <div class="card">
-                    <div class="icons">
-                        <a href="https://portfolio-site-template.lilykhan.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
-                        <a href="https://github.com/Lilykhan786/PortfolioTemplate" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
-                    </div>
-                    <div class="deets">
-                        <h3>Portfolio Template</h3>
-                        <p>A simple portfolio website template that I made for Repl.it template jam.</p>
-                    </div>
-                    
-                </div>  
-                    <!-- card-2 -->
-                <div class="card">
-                    <div class="icons">
-                        <a href="https://volant-site.thedevfam.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
-                        <a href="https://github.com/volantlang/Volant-site" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
-                    </div>
-                    <div class="deets">
-                        <h3>Volant Site</h3>
-                        <p>A Site for <b>Volant</b>, an open source Programming Language.</p>
-                    </div>
-                    
-                </div>  
-                    <!-- card-3 -->
-                <div class="card">
-                    <div class="icons">
-                        <a href="https://codepen.io/Lilykhan/full/gOLWpxN" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
-                    </div>
-                    <div class="deets">
-                        <h3>Css Butterfly Logo</h3>
-                        <p>Pure Css Butterfly Logo.</p>
-                    </div>
-                </div> 
-                    <!-- card-4 -->
-                <div class="card">
-                    <div class="icons">
-                        <a href="https://cat-gallery.lilykhan.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
-                    </div>
-                    <div class="deets">
-                        <h3>Cat Gallery.</h3>
-                        <p>An Art Gallery of cute cats pics.</p>
-                    </div>
-                    
-                </div>  
-            </div>
-
-            <h2>Projects I've contributed to:</h2>
-            
-            <div class="g cards cont"> 
-                    <!-- card-1 -->
-                <div class="card">
-                    <div class="icons">
-                        <a href="https://cjnine.thedrone7.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
-                    </div>
-                    <div class="deets">
-                        <h3>CoronaJam</h3>
-                        <p>The game teaches you about the various ways to prevent the spread of the COVID-19 (corona) virus.</p>
-                    </div>
-                </div> 
-
-                    <!-- card-2 -->
-                <div class="card">
-                    <div class="icons">
-                        <a href="https://noirnight.netlify.app/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
-                        <a href="https://github.com/kartikcho/NoirNight" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
-                    </div>
-                    <div class="deets">
-                        <h3>Noir Night</h3>
-                        <p>An interactive, voice powered murder mystery that uses Google Dialogflow to react to user questions.</p>
-                    </div>
-                </div> 
-
-                    <!-- card-3 -->
-                <div class="card">
-                    <div class="icons">
-                        <a href="https://dreamcare.netlify.app/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
-                        <a href="https://github.com/hack-central/dreamcare-client" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
-                    </div>
-                    <div class="deets">
-                        <h3>DreamCare</h3>
-                        <p>The app helps you record and remember your dreams. A personalized collection of dreams with insightful interpretations.</p>
-                    </div>
-                </div> 
-
-                    <!-- card-4 -->
-                <div class="card">
-                    <div class="icons">
-                        <a href="https://skinre.lilykhan.repl.co/" target="_blank"><img class="ex-link" src="https://img.icons8.com/pastel-glyph/64/ffffff/external-link.png" alt="external link"/></a>
-                        <a href="https://github.com/Lilykhan786/Skinre" target="_blank"><img src="https://img.icons8.com/small/32/ffffff/github.png" alt="github"/></a>
-                    </div>
-                    <div class="deets">
-                        <h3>Skinre</h3>
-                        <p>A chrome extension plus website created to help people find suitable products to treat stuff such as acne and skin damage.</p>
-                    </div>
-                    
-                </div> 
-
-            </div>
-            
-            <div class="gallery">
-            <h2>My Bujo and Logos</h2>
-                <div class="bujo">
-                    <img class="bimg" src="/images/bujo/dec.jpg" alt="dec">
-                    <img class="bimg" src="/images/bujo/green.jpg" alt="quote">
-                    <img class="bimg" src="/images/bujo/jan.jpg" alt="jan">
-                    <img class="bimg" src="/images/bujo/comp.jpg" alt="comp_long">
-                    <img class="bimg" src="/images/bujo/march.jpg" alt="march">
-                    <img class="bimg" src="/images/bujo/feb.png" alt="feb">
-                    <img class="bimg" src="/images/bujo/volant.jpg" alt="volant_logo">
-                    <img class="bimg" src="/images/bujo/cap.jpg" alt="quote">
-                    <img class="bimg" src="/images/bujo/2020.jpg" alt="2020">
-                </div>
-                <div class="modal">
-                    <span class="close"><img src="https://img.icons8.com/emoji/48/ffffff/cross-mark-emoji.png"/></span>
-                    <div class="modalContent">
-                    <img src="" class="modalImg" />
-                    <span class="modalTxt"></span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="socials c">
-            <div class="c">
-                <h1>Get In Touch</h1>
-            <div class="i sm">
-                <div class="icon">
-                    <a href="https://github.com/Lilykhan786" target="_blank"><img src="https://img.icons8.com/material-sharp/48/ffffff/github.png"/></a>
-                </div>
-                <div class="icon">
-                    <a href="https://twitter.com/LilyKhan786" target="_blank"><img src="https://img.icons8.com/android/48/ffffff/twitter.png"/></a>
-                </div>
-                <div class="icon">
-                    <a href="https://discord.com/invite/QgPaV95" target="_blank"><img src="https://img.icons8.com/material-sharp/48/ffffff/discord-logo.png"/></a>
-                </div>
-                <div class="icon">
-                    <a href="https://codepen.io/Lilykhan" target="_blank"><img src="https://img.icons8.com/material/48/ffffff/codepen.png"/></a>
-                </div>
-            </div>
-            </div>
-            <div class="copyright">Made By Lily Khan💙</div>
-        </div>
+      </div>
+      
     </main>
 
     <script src="script.js"></script>

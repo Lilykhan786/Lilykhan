@@ -1,5 +1,7 @@
 .gallery{
   margin: 5em auto;
+  display: none;
+
 }
 
 .bujo{

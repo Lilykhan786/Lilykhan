@@ -1,11 +1,12 @@
 .cards{
   margin: 3em 0;
   justify-content: center;
+  text-align: left;
 }
 
 .card{
-  width: 250px;
-  height: 320px;
+  width: 230px;
+  height: 300px;
   padding: 1.5em 1em 1.5em 1.5em;
   margin: 1em;
   background-position: top;
@@ -17,10 +18,13 @@
 
 .deets h3{text-shadow: var(--shadow);}
 
+
 .deets p{
   color: #ffffff;
   opacity: .75;
 }
+
+
 
 .icons img{
   float: right;
