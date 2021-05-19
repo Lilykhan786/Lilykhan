@@ -1,16 +1,13 @@
 #bg{
-  width: 100%;
+  width: 100vw;
   height: 60vh;
   overflow: hidden;
   position: absolute;
   top: 0;
-  /* pointer-events: auto; */
+  pointer-events: auto;
   background: linear-gradient(#170944,#0d0c22,#030517);
   background: -webkit-linear-gradient(#170944,#0d0c22,#030517);
-  z-index: -2;
 }
-
-/* a70184 */
 
 cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   display: none;
@@ -30,7 +27,6 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   letter-spacing: 5px;
   font-weight: bold;
 	color: var(--purple);
-  /* text-align: center; */
 	text-shadow:  
 		1px 1px #fbf0ff,2px 2px #fbf0ff,
 		3px 3px #f5e4ff,4px 4px #f5e4ff,
@@ -63,7 +59,11 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   position: relative;
   top: 7em;}
 
-.socials{z-index: 4;}
+.socials{
+  position: relative;
+  z-index: 4;
+  pointer-events: none;
+}
 
 .con{
   position: relative;
@@ -84,6 +84,7 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 }
 
 .icon{
+  pointer-events: auto;
   cursor: pointer;
   background: var(--box-color);
   border-radius: var(--b-radius);
@@ -101,11 +102,13 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 .copyright{padding: 30px;}
 
 #bg_two{
-  z-index: -2;
+  z-index: 0;
+  width: 100vw;
   height: 340px;
   position: absolute;
   bottom: 0;
   overflow: hidden;
+  pointer-events: auto;
   background: linear-gradient(#031117, #06051b, #091e44);
   background: -webkit-linear-gradient(#030517, #06051b, #091e44);
 }
