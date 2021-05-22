@@ -1,6 +1,8 @@
+/* Hero */
+
 #bg{
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -41,41 +43,36 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   width: 80%;
   padding: 1.5em;
   padding-left: 2em;
-  margin: 7em auto;
+  margin: 5em auto;
   border: var(--border);
   text-align: left;
 }
 
 .about h1{font-size: 2.2em;}
 
-.projects {
-  position: relative;
-  z-index: 2;
-}
 
-/* footer */
+/* Footer */
 
 .footer{
   position: relative;
-  top: 7em;}
+  top: 10em;}
 
 .socials{
   position: relative;
   z-index: 4;
+  padding: 0 10px;
   pointer-events: none;
 }
 
 .con{
   position: relative;
-  top:-1em;
+  top: -2em;
   margin: 0 auto;
   border: var(--border);
   padding: 1em 2em;
 }
 
-.sm{
-  margin: 2em 0;
-}
+.sm{margin: 3em 0;}
 
 .sm img{
   height: 37px;
@@ -99,7 +96,7 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   transform: scale(1.1);
 }
 
-.copyright{padding: 30px;}
+.copyright{padding: 30px 0;}
 
 #bg_two{
   z-index: 0;
@@ -113,14 +110,26 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
   background: -webkit-linear-gradient(#030517, #06051b, #091e44);
 }
 
-/* footer ends */
+/* Responsive */
 
-@media screen and (max-width: 732px) {
-  .boox{margin:0 1em; padding: 0px 2em .5em 2em;}
-  .name{font-size: 5em;}  
-  .con{margin:0 1em;}
+@media only screen and (min-width: 1400px){
+  .name{font-size: 10em;}
+  .g{grid-template-columns: auto auto auto auto;}
 }
 
-@media only screen and (min-width: 1400px) {
-  .name{font-size: 10em;}
+@media screen and (max-width: 732px){
+  .boox{margin:0 1em; padding: 0px 2em .5em 2em;}
+  .name{font-size: 5em;}  
+  .copyright{padding-top: 0;}
+  .g{display: flex}
+}
+
+@media screen and (max-width: 500px){
+  .name{padding: 10px;}
+  #bg_two{height: 400px;} 
+  .footer,.con{top:0;}
+}
+
+@media only screen and (max-width: 320px){
+  .name{font-size: 3.5em;}
 }
