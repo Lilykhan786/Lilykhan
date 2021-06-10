@@ -3,6 +3,12 @@
   z-index: 2;
 }
 
+.he{
+  font-size: 2em;
+  padding-top: 1.2em;
+  padding-bottom: .8em;
+}
+
 .cards{
   margin: 3em 0;
   justify-content: center;
@@ -22,22 +28,23 @@
   overflow: hidden;
 }
 
-.deets h3{text-shadow: var(--shadow);}
+.card h2{
+  font-size: 1.5em;
+  text-shadow: var(--shadow);
+}
 
 .deets p{
   color: #ffffff;
   opacity: .75;
 }
 
-.icons img{
+.icons{
+  position: relative;
   float: right;
-  height: 25px;
+  gap: 7px;
+  display: flex;
   padding: 5px 2px;
-  transition: .2s ease-in;
-}
-
-.icons .ex-link{
-  height: 23px;
+  transition: .3s ease-in-out;
 }
 
 .icons img:hover{
@@ -48,29 +55,29 @@
 /* project cards */
 
 .pro .card:nth-child(1){
-  background-image:var(--card-g), url('/images/pro/template.png');
+  background-image:var(--card-g), url('/imgs/pro/template.png');
 }
 .pro .card:nth-child(2){
-  background-image:var(--card-g), url('/images/pro/volant.png');
+  background-image:var(--card-g), url('/imgs/pro/volant.png');
 }
 .pro .card:nth-child(3){
-  background-image:var(--card-g), url('/images/pro/fly.png');
+  background-image:var(--card-g), url('/imgs/pro/todo.png');
 }
 .pro .card:nth-child(4){
-  background-image:var(--card-g), url('/images/pro/cat.png');
+  background-image:var(--card-g), url('/imgs/pro/login.png');
 }
 
 /* contribution cards */
 
 .cont .card:nth-child(1){
-  background-image:var(--card-g), url('/images/cont/cj.png');
+  background-image:var(--card-g), url('/imgs/cont/cj.png');
 }
 .cont .card:nth-child(2){
-  background-image:var(--card-g), url('/images/cont/noirnight.png');
+  background-image:var(--card-g), url('/imgs/cont/noirnight.png');
 }
 .cont .card:nth-child(3){
-  background-image:var(--card-g), url('/images/cont/dreamcare.png');
+  background-image:var(--card-g), url('/imgs/cont/dreamcare.png');
 }
 .cont .card:nth-child(4){
-  background-image:var(--card-g), url('/images/cont/skinre.png');
+  background-image:var(--card-g), url('/imgs/cont/skinre.png');
 }

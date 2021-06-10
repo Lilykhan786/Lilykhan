@@ -74,21 +74,21 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 
 .sm{margin: 3em 0;}
 
-.sm img{
-  height: 37px;
-  padding-top: 7px;
-  transition: .3s ease-in-out;
-}
 
 .icon{
   pointer-events: auto;
-  cursor: pointer;
-  background: var(--box-color);
+  cursor: pointer; 
+  background: var(--box-color); 
   border-radius: var(--b-radius);
-  padding: 3px 10px;
-  margin: 1em;
+  margin: 1em; 
   transition: .2s ease-in-out;  
   border: 1px solid transparent;
+  padding: 10px;
+}
+
+a{  
+  display: flex;
+  text-decoration: none;
 }
 
 .icon:hover{
