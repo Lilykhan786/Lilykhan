@@ -7,11 +7,12 @@ I wanted to make my sit look small, easy and simple yet beautiful
 
 
 ### Links
-Portfolio Site:  https://lilykhan.repl.co/
-Devpost: https://devpost.com/lilykhan
-GitHub: https://github.com/Lilykhan786 
-Replit: https://replit.com/@lilykhan
-Twitter: https://twitter.com/LilyKhan786
-Linkedin: https://www.linkedin.com/in/lilykhan786/
-Dribble: https://dribbble.com/lilykhan
-Codepen: https://codepen.io/Lilykhan
+- Portfolio Site:  https://lilykhan.repl.co/
+- Devpost: https://devpost.com/lilykhan
+- GitHub: https://github.com/Lilykhan786 
+- Replit: https://replit.com/@lilykhan
+- Twitter: https://twitter.com/LilyKhan786
+- Linkedin: https://www.linkedin.com/in/lilykhan786/
+- Dribble: https://dribbble.com/lilykhan
+- Codepen: https://codepen.io/Lilykhan
+- Polywork: https://www.polywork.com/lilykhan
