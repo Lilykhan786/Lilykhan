@@ -5,6 +5,8 @@ Hi! I'm Lily Khan, a teen front-end developer from India and this is my portfoli
 
 I wanted to make my site look small, easy and simple yet beautiful. I'll update the site soon :)
 
+Add more in about me and remove all the box and stuff
+
 
 ### Links:
 - Portfolio Site:  https://lilykhan.repl.co/
