@@ -3,7 +3,7 @@ Hi! I'm Lily Khan, a teen front-end developer from India and this is my portfoli
 
 ### How I wanted my site to look and feel:
 
-I wanted to make my site look small, easy and simple yet beautiful. I'll update the site soon :)
+I wanted to make my site look small, easy and simple yet beautiful. I'll update the site soon:tm: :)
 
 ### Links:
 - Portfolio Site:  https://lilykhan.repl.co/
