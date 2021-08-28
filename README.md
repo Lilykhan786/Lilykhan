@@ -29,5 +29,5 @@ ___
 - [ ] move dribble and add behance in the about section,
 - [ ] add enviromation and more projects,
 - [ ] Maybe diff section for more projctes or maybe not.
-- [ ] add polywork. in about 
+- [ ] add polywork. in about (for hacks project info)
 - [ ] need to finish it be4 my bday 
