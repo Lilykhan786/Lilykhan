@@ -30,4 +30,4 @@ ___
 - [ ] add **polywork**. in about (for hacks project info)
 - [ ] add enviromation and more projects,
 - [ ] Maybe diff section for more projctes or maybe not.
-- [ ] need to finish it be4 my bday 
+- [ ] need to finish it be4 my bday, hope so
