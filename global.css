@@ -10,7 +10,7 @@
   --box-color: #151635b3;
   --border: 1px solid #ffffff;
   --shadow: 0 0 1px #7879da;
-  --white: #ffffff;
+  --white: #ffffffd7;
   --purple: #7879da;
   --b-radius: .7em;
 }
@@ -22,7 +22,8 @@ body{
   color: var(--white);
   background: var(--bg);
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   text-align: center;
 }
@@ -59,9 +60,13 @@ h1{font-size: 3em;}
 
 p{
   padding-top: 1em;
-  line-height: 28px;
+  line-height: 25px;
   letter-spacing: .5px;
   font-size: 1em;
+}
+
+span{
+  color: hotpink;
 }
 
 .box{
