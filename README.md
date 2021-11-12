@@ -29,5 +29,4 @@ ___
 - [ ] add enviromation and more projects,
 - [ ] menu option on small screens 
 - [ ] tab size
-- [ ] do soemthing about about me fonts
-- [ ] Maybe diff section for more projctes or maybe not.
+- [ ] btn to hide and show more projctes.
