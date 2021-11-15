@@ -19,11 +19,11 @@ I wanted to make my site look small, easy and simple yet beautiful. I'll update 
 - Dev.to: https://dev.to/lilykhan
 - Figma: https://www.figma.com/@Lilykhan
 - Hashnode: https://lily.hashnode.dev/
+- Peerlist: https://peerlist.io/lilykhan
 
 ___
 
 ### Todos:
-
 - [x] Add more in about me and remove all the box and stuff,
 - [ ] Add **linkedin** and **polywork** in socilas,
 - [ ] add enviromation and more projects,
