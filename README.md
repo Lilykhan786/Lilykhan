@@ -20,7 +20,6 @@ I wanted to make my site look small, easy and simple yet beautiful. I'll update 
 - Figma: https://www.figma.com/@Lilykhan
 - Hashnode: https://lily.hashnode.dev/
 - Peerlist: https://peerlist.io/lilykhan
-
 ___
 
 ### Todos:
@@ -30,3 +29,4 @@ ___
 - [ ] menu option on small screens 
 - [ ] tab and mobile size
 - [ ] btn to hide and show more projctes.
+- [ ] something really cool and diff?
