@@ -30,4 +30,3 @@ ___
 - [ ] btn to hide and show more projctes.
 - [ ] something really cool and diff?
 - [ ] start working on it after exams/christmas
-- [ ] update copyright yr on newyear 
