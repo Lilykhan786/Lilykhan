@@ -38,10 +38,10 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 }
 
 .about{
-  max-width: 1400px;
+  max-width: 1200px;
   width: 80%;
-  padding: 1.5em;
-  padding-left: 2em;
+  padding-top: 1.5em;
+  padding: 2em;
   margin: 5em auto;
   border: var(--border);
   text-align: left;
@@ -51,6 +51,10 @@ cell #c-7-7-1, #c-7-1-1, #c-7-5-1, #c-2-6-1, #c-3-5-1, #c-2-4-1, #c-3-6-1{
 .about p{
   font-size: 1.10em;
   pointer-events: auto;
+}
+.about p a{
+  display: inline-block;
+  color:#ff7a91;
 }
 
 /* Footer */
