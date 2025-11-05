@@ -57,7 +57,7 @@
 /* project cards */
 
 .card:nth-child(1){
-  background-image:var(--card-g), url('/imgs/pro/template.png');
+  background-image:var(--card-g), url('https://lilykhan786.github.io/Lilykhan/imgs/pro/template.png');
 }
 .card:nth-child(2){
   background-image:var(--card-g), url('/imgs/pro/volant.png');
